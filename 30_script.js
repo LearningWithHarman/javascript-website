@@ -16,7 +16,7 @@ const boxes = document.querySelectorAll('.box');
 window.addEventListener('scroll', checkboxes);
 checkboxes();
 function checkboxes() {
-  const tbottom = window.innerHeight / 5 * 4;
+  const tbottom = window.innerHeight / 1 * 4;
 
   boxes.forEach(box => {
     const boxtop = box.getBoundingClientRect().top;
